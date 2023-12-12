@@ -1,0 +1,485 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 93px;
+}
+
+.navlist {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.navlist li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navlist li a:hover {
+    cursor: pointer;
+    color: grey;
+}
+
+.rightnav {
+    width: 50%;
+    text-align: right;
+    padding: 0px 20px;
+}
+
+#search {
+    padding: 5px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.background {
+    width: 100%;
+    background-color: rgb(0, 0, 0.7);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/*-------home-------*/
+.box-main {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first-section {
+    height: 100vh;
+}
+
+.firsthalf {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.secondhalf {
+    width: 50%;
+}
+
+.pics {
+    rotate: -35deg;
+}
+
+.text-big {
+    font-size: 70px;
+}
+
+.text-small {
+    font-size: 25px;
+}
+
+.high {
+    color: bisque;
+    font-weight: 550;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 8px 0px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(110, 110, 110);
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+/*----------features--------*/
+.leftsec {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    color: #ffffff;
+    height: 100vh;
+}
+
+.shoe1 {
+    margin-top: -5%;
+    flex-basis: 40%;
+}
+
+.shoe1-info {
+    margin-top: 0px;
+    flex-basis: 60%;
+    display: block;
+    padding: 10px;
+}
+
+.shoe1-info p {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.shoe1-info h1 {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.size {
+    display: block;
+}
+
+.size-1,
+.size-2,
+.size-3 {
+    display: flex;
+}
+
+.size-3 {
+    margin-left: 160px;
+}
+
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6,
+.box-7,
+.box-8,
+.box-9,
+.box-10,
+.box-11,
+.box-12,
+.box-13 {
+    box-shadow: 1px 1px 4px white;
+    border-radius: 10px;
+    display: block;
+    height: 20px;
+    width: 75px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #2e2e2e;
+    font-size: 15px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+
+}
+
+.btn-1,
+.btn-2 {
+    background-color: #D3A17C;
+    color: black;
+    border-radius: 70px;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    padding-top: 10px;
+    justify-content: space-between;
+    margin: 30px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.btn-1:hover,
+.btn-2:hover {
+    background-color: #f3bf97;
+    cursor: pointer;
+}
+
+/*----------options--------*/
+.rightsec {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    color: white;
+    height: 100vh;
+}
+
+.shoe2 {
+    margin-top: -80px;
+    flex-basis: 40%;
+}
+
+.shoe2 img {
+    margin-left: 50px;
+}
+
+.shoe3 img {
+    margin-right: 75px;
+}
+
+.shoe3 {
+    margin-top: -80px;
+    flex-basis: 60%;
+}
+
+.sameprop {
+    margin-left: 180px;
+    margin-top: -60px;
+    font-size: 10px;
+}
+
+.shoe3 .sameprop {
+    margin-left: 100px;
+}
+
+/*---------footer-----*/
+footer {
+    height: 60px;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    font-size:10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+@media only screen and (max-width:1034px) {
+    .navlist {
+        flex-direction:column;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    #search {
+        width: 100%;
+    }
+
+    .rightnav {
+        text-align: center;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav {
+        height: 72px;
+    }
+
+    .v-class {
+        opacity: 0;
+    }
+
+
+
+    .box-main {
+        display: block;
+        text-align: center;
+        justify-content: none;
+    }
+
+    .text-big {
+        font-size: 30px;
+    }
+
+    .text-small {
+        font-size: 15px;
+    }
+      .firsthalf{
+        margin-top: -8%;
+      }
+    .secondhalf {
+        width: 70%;
+    }
+
+    .box-main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .first-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        /* Set the height to 100% of the viewport height for vertical centering */
+        text-align: center;
+        /* Optional: Center-align text inside the section */
+    }
+
+    .pics {
+        max-width: 100%;
+        /* Ensure the image doesn't exceed the width of its container */
+        /* Maintain the image's aspect ratio */
+    }
+
+
+
+    .leftsec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .shoe1-info {
+        margin-top:-7%;
+        flex-basis: 60%;
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .shoe1 {
+        margin-top:-6%;
+        width: 30%;
+        flex-basis: 40%;
+    }
+
+    .shoe1-info p {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .shoe1-info h1 {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .size-1,
+    .size-2,
+    .size-3 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .size-3 {
+        margin-left: 0px;
+    }
+
+    .box-1,.box-2,.box-3,.box-4,.box-5,.box-6,.box-7,
+    .box-8,.box-9,.box-10,.box-11,.box-12,.box-13 {
+        justify-content: center;
+        align-items: center;
+        box-shadow: 1px 1px 4px white;
+        border-radius: 10px;
+        display: block;
+        height: 10px;
+        width: 40px;
+        padding: 5px;
+        margin: 5px;
+        background-color: #2e2e2e;
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .btn-1,
+    .btn-2 {
+        background-color: #D3A17C;
+        color: black;
+        border-radius: 70px;
+        height: 15px;
+        width: 80px;
+        text-align: center;
+        padding: 5px;
+        justify-content: space-between;
+        margin: 10px;
+        font-weight: 500;
+        font-size: 10px;
+    }
+
+
+    .shoes {
+        width: 50%;
+        margin-top: 0px;
+    }
+     
+    .sameprop {
+        margin-left: 30%;
+        margin-top: -5%;
+        width: 50%;
+    }
+    .shoe2{
+        margin-top:-7%;
+    }
+    .shoe3 h2 {
+        margin-right: 0%;
+    }
+
+    .sameprop h2 {
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .rightsec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .shoe2 img {
+        margin-left: 50%;
+    }
+
+    .shoe3 img {
+        margin-left: 50%;
+    }
+    .shoe3 .sameprop{
+        margin-left: 30%;
+    }
+
+}
